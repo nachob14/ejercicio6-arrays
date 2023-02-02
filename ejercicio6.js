@@ -14,13 +14,13 @@ console.log(listaCompra);
 
 // - Una lista de tus 3 películas favoritas (objetos con propiedades: titulo, director, fecha)
 const peliculas = [
-    {titulo: 'Volver al futuro', director: 'Robert Zemeckis', fecha: new Date(1985, 12, 26)}, 
-    {titulo: 'Pulp Fiction', director: 'Quentin Tarantino', fecha: new Date(1995, 02, 16)}, 
-    {titulo: 'Interestelar', director: 'Christopher Nolan', fecha: new Date(2014, 11, 06)}
+    {titulo: 'Volver al futuro', director: 'Robert Zemeckis', fecha: new Date(1985, 11, 26)}, 
+    {titulo: 'Pulp Fiction', director: 'Quentin Tarantino', fecha: new Date(1995, 01, 16)}, 
+    {titulo: 'Interestelar', director: 'Christopher Nolan', fecha: new Date(2014, 10, 06)}
 ]
 
 // - Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)
-const peliculasNuevas = peliculas.filter(peliculas => peliculas.fecha > new Date(2010, 01, 01));
+const peliculasNuevas = peliculas.filter(peliculas => peliculas.fecha > new Date(2010, 00, 01));
 console.log(peliculasNuevas);
 
 // - Una nueva lista que contenga los directores de la lista de películas original (utilizando map)
