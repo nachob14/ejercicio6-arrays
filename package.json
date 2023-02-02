@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio6-arrays",
+  "version": "1.0.0",
+  "description": "Ejercicio 6 del curso de Javascript basico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Ignacio Bordon",
+  "license": "ISC"
+}
